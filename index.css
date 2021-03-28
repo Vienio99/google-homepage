@@ -2,8 +2,30 @@ main {
     text-align: center;
 }
 
+
+img {
+    margin-bottom: 30px;
+}
 .navbar {
     display: flex;
+    margin-bottom: 190px;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.navbar > * {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.navbar p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar svg {
+    height: 30px;
+    width: 30px;
 }
 
 .navbar p:hover {
@@ -12,27 +34,28 @@ main {
 
 
 .form-search {
-    position: relative;
     display: flex;
     align-items: center;
-    height: 44px;
-    width: 494px;
+    height: 38px;
+    width: 550px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     padding: 5px 8px 0 16px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 #search {
     border: none;
+    width: 490px;
 }
 
-#search:active {
-    border: none;
+#search:focus-visible {
+    outline: none;
 }
 
 
 .search-logo {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,12 +66,10 @@ main {
 .search-logo svg {
     height: 20px;
     width: 20px;
-    fill: var(--color-gray-400);
+    fill: gray;
 }
 
 .mic-logo {
-    height: 100%;
-    width: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,5 +80,15 @@ main {
 .mic-logo svg {
     height: 24px;
     width: 24px;
+}
 
+.main-buttons {
+    border: none;
+    padding: 11px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 5px;
+    color: rgb(59, 59, 59);
+    margin: 5px;
+    background-color: rgba(236, 236, 236, 0.651)
 }
