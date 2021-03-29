@@ -1,34 +1,42 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
 main {
     text-align: center;
 }
 
-
-img {
-    margin-bottom: 30px;
+main img {
+    margin-bottom: 25px;
 }
+
+body {
+    margin: 0;
+}
+
 .navbar {
     display: flex;
     margin-bottom: 190px;
     justify-content: flex-end;
-    align-content: center;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 10px;
+    color:rgb(61, 61, 61)
 }
+
 
 .navbar > * {
-    margin-left: 10px;
-    margin-bottom: 0px;
-    text-align: center;
+    margin-left: 15px;
+    font-size: 15px;
 }
 
-.navbar p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 .navbar svg {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+    fill: gray;
 }
 
-.navbar p:hover {
+.navbar div:hover {
     text-decoration: underline;
 }
 
@@ -88,7 +96,54 @@ img {
     padding-right: 18px;
     padding-left: 18px;
     border-radius: 5px;
-    color: rgb(59, 59, 59);
+    color: rgb(100, 100, 100);
     margin: 5px;
     background-color: rgba(236, 236, 236, 0.651)
+}
+
+
+footer {
+    background-color: rgb(245, 245, 245);
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(138, 138, 138);
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+
+.first-line {
+    display: flex;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.first-line p {
+    margin-left: 20px;
+}
+
+
+.second-line {
+    display: flex;
+    margin-left: 20px;
+}
+
+.beginning {
+    display: flex;
+}
+
+.beginning p {
+    margin-right: 15px;
+}
+
+.end {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.end p {
+    margin-right: 15px;
 }
